@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SpaceEx</title>
+  </head>
+  <body>
+    <header>
+      <a href="home.html">
+        <img src="assets/logo.png" alt="SpaceEx" />
+      </a>
+      <!--Conectar com spacehips.html  -->
+      |<a href="spacehips.html">The Spaceships</a>
+      <!-- Conectar com hireUs.html -->
+      |<a href="hireus.html">Hire us</a>
+    </header>
+    <hr />
+    <article>
+      <div>
+        <h1>Hire Us</h1>
+        <p>
+          Leave a message to request one of services and we will get back to you
+          as soon as possible.
+        </p>
+      </div>
+      <form action="">
+        <div>
+          <label for="">Name: </label>
+          <input type="text" name="name" id="name" /> -
+          <label for="">E-mail: </label>
+          <input type="email" name="email" id="email" />
+        </div>
+        <br />
+        <div>
+          <label for="">Spaceship:</label>
+          <select list="spaceshipList" />
+            <option value="Falcon-9">Falcon 9</option>
+            <option value="Falcon-heavy">Falcon heavy</option>
+          </select>
+          <label for="">|Type of Service: </label>
+          <input list="spaceshipList" />
+          <datalist id="spaceshipList">
+            <option value="Lorem ipsum dolor sit ame"></option>
+            <option value="Lorem ipsum dolor sit ame"></option>
+            <option value="Lorem ipsum dolor sit ame"></option>
+            <option value="Lorem ipsum dolor sit ame"></option>
+          </datalist>
+        </div>
+        <br />
+        <button type="submit">Send Message</button>
+      </form>
+    </article>
+  </body>
+</html>
