@@ -1,0 +1,41 @@
+:root {
+  --black: #000;
+  --yellow: ​#f1c40f;
+  --blue: #2c3e50; 
+  --red: #e74c3c; 
+  --white: #fff;
+}
+
+body {
+  background-color: var(--blue);
+}
+
+#title {
+  color: var(--white);  
+  
+}
+#sub-title-1 {
+  color: #f1c40f;
+}
+
+ul li {
+  color: var(--white);
+}
+
+section .sub-title {
+  color: var(--black);
+  background-color: #f1c40f;
+  border:2px solid var(--black);
+}
+
+.week-description
+.terca 
+li:nth-of-type(2) {
+  color: var(--red);
+}
+
+.week-description
+.quarta 
+li:nth-of-type(2) {
+  color: var(--red);
+}

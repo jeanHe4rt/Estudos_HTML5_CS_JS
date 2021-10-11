@@ -1,0 +1,32 @@
+body {
+  background-color: #eee;
+  /* background-image: url('https://i.ytimg.com/vi/StSJsyraODs/maxresdefault.jpg'); */
+  background-repeat: no-repeat; // Não repetir a imagem
+  background-size: cover; // imagem no tamanho máximo da imagem,porém se reduzirmos a tela ela não ficara na altura certa
+}
+h1 {
+  font-size: 50px;
+  color: purple;
+  border: 1px solid yellow;
+}
+
+li {
+  color: green;
+}
+.moon {
+  color: red;
+}
+
+#europaText {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* li > a  (é o seletor li é o pai e depois o filho)
+li + a um após o outro
+
+a[href="url"] - estilizando com pelos atributos do sistema.
+
+li:nth-of-type(posição do elemento) Poderemos editar um elemento especifico ou 
+ao mesmo tempo, desde que  estejam na mesma posição;
+*/
