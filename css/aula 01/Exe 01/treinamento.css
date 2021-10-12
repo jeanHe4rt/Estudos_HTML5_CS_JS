@@ -15,7 +15,7 @@ body {
   
 }
 #sub-title-1 {
-  color: #f1c40f;
+  color:var(--yellow);
 }
 
 ul li {
@@ -24,7 +24,7 @@ ul li {
 
 section .sub-title {
   color: var(--black);
-  background-color: #f1c40f;
+  background-color: var(--yellow);
   border:2px solid var(--black);
 }
 
