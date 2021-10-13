@@ -1,8 +1,11 @@
 * {
-  font-family: Fira Code;
   line-height: 1.5;
 }
 h1 {
   text-align: center;
   text-decoration: underline;
+  font-family: 'Geostar', cursive;
+}
+p {
+  font-family: 'Roboto';
 }
