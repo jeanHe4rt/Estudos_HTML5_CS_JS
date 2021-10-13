@@ -1,0 +1,34 @@
+:root {
+  --background: #fcd4d4;
+  --date:#008080;
+}
+
+.title-public, .date-Publi, .post-content {
+  padding: 15px 0 15px 50px;
+}
+
+main {
+  margin: 0 auto 0 auto;
+  width: 70%;
+  height: 100vh;
+  background-color:var(--background);
+}
+
+
+.title-public {
+  margin-top: 15px;
+  font-family: 'Montserrat', sans-serif;
+}
+.date-Publi{
+  font-family: 'Roboto';
+  color: var(--date);
+}
+.post-content {
+  font-family: 'Open Sans';
+  font-weight:normal;
+  padding-right: 26px;
+}
+
+body main .post-1 > .date-Publi {
+  margin-top: 300px;
+}
