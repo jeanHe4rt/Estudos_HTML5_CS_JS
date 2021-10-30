@@ -12,13 +12,13 @@ function addNewHouse (){
     Casa N°: ${numberHouse}; - Bairro: ${address}; - Cidade: ${city}., Área da Casa: ${areaHouse};
     `;
 
-    let removeButton  = document.createElement("button");
-    removeButton.type = "button";
-    removeButton.innerText = "Remover";
-    removeButton.setAttribute("onclick", "removeHouse(this)");
-    newLi.appendChild(removeButton);
+    let removeButton  = document.createElement("button");// Cria o botão
+    removeButton.type = "button"; // Define o tipo do botão
+    removeButton.innerText = "Remover"; // texto que do botão
+    removeButton.setAttribute("onclick", "removeHouse(this)"); // attributo onclick adicionado
+    newLi.appendChild(removeButton);// inserri na li
 
-    document.querySelector(".houseList").appendChild(newLi)
+    document.querySelector(".houseList").appendChild(newLi) // inseri a li na doom
 }
 
 function removeHouse(button){
